@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color: #454545;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.one{
+	position: absolute;
+	top: 0%;
+	width: 80%;
+	height: 1230px;
+	left: 10%;
+	background-color: black;
+	opacity: 0.5;
+}
+.two{
+	position: absolute;
+	width: 200px;
+	height: 90px;
+	
+}
+.three{
+	position: absolute;
+	left: 0;
+	top: 80px;
+	width: 100%;
+	height: 35px;
+	border: 2px solid skyblue;	
+}
+
+ ul li{
+	list-style: none;
+	margin: 0 120px;
+}
+.text a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	font-size: 18px;
+	color: white;
+	margin-left: 0px 20px;
+	line-height: 40px;
+}
+.ab{
+	margin: 0 20px;
+	line-height: 30px;
+	font-size: 14px;
+}
+form{
+	line-height: 36px;
+}
+.ab:hover{
+	color: lightskyblue;	
+}
+.four{
+	position: absolute;
+	left: 0;
+	top: 122px;
+	width: 100%;
+	height: 350px;
+	border: 2px solid skyblue;
+}
+.ce{
+	position: absolute;
+	right: 20px;
+	top: 25px;
+	width: 550px;
+	height: 300px;
+	border: 2px solid skyblue;
+	border-radius:15px;
+    webkit-border-radius:15px;
+    moz-border-radius:15px;
+}
+.ce1{
+	position: absolute;
+	top: 10px;
+	left: 155px;
+	
+}
+h2{
+	color: white;
+}
+.ce2{
+	position: absolute;
+	border: 2px dashed rosybrown;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	top: 50px;
+	left: 20px;
+	width: 500px;
+}
+p{
+	color: white;
+	font-size: 18x;
+	text-align: 10px;
+}
+.ce3{
+	position: absolute;
+	top: 20px;
+}
+.ce4{
+	position: absolute;
+	top: 50px;
+}
+.ce5{
+	position: absolute;
+	top: 120px;
+}
+.five{
+	position: absolute;
+	border: 2px solid skyblue;
+	top: 480px;
+	width: 100%;
+	height: 700px;
+}
+.ce6{
+	position: absolute;
+	border: 2px solid skyblue;
+	top: 0;
+	width: 100%;
+	height: 20px;	
+}
+.ce6 p{
+	position: absolute;
+	left: 10px;
+	/*color: blue;*/
+}
+.ce7{
+	position: absolute;
+	top: 50px;
+	left:10px;
+	width: 550px;
+	height: 300px;
+	/*border: 2px solid red;*/
+}
+.photo{
+	display: block;
+		width: 200px;
+		height: 300px;
+}
+.samll_ce7{
+	position: absolute;
+	top: 10px;
+	width: 320px;
+	height: 150px;
+	left: 210px;
+}
+.p1{
+	font-size: 18px;
+	color: skyblue;
+}
+.p2{
+	font-size: 14px;
+	text-align: 10px;
+}
+.small_ce71{
+	position: absolute;
+	top: 150px;
+	width: 320px;
+	height: 130px;
+	left: 0px;
+		
+}
+.ce8{
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	width: 550px;
+	height: 300px;
+
+}
+.photo1{
+		position: absolute;
+	    display: block;
+		width: 200px;
+		height: 300px;
+		left: 15px;
+}
+.small_ce8{
+	position: absolute;
+	top: 10px;
+	width: 320px;
+	height: 150px;
+	right: 5px;
+}
+.p3{
+	font-size: 18px;
+	color: skyblue;
+}
+.p4{
+	font-size: 14px;
+	}
+.small_ce81{
+	position: absolute;
+	top: 150px;
+	width: 320px;
+	height: 130px;
+	right: 5px;	
+}
+.ce9{
+	position: absolute;
+	width: 550px;
+	height: 300px;
+	bottom: 20px;
+}
+.photo2{
+		position: absolute;
+	    display: block;
+		width: 200px;
+		height: 300px;
+		bottom: 0px;
+		left: 10px;
+}
+.small_ce9{
+	position: absolute;
+	width: 320px;
+	height: 130px;
+	right: 5px;
+	top: 10px;
+}
+.p5{
+	font-size: 18px;
+	color: skyblue;
+}
+.p6{
+	font-size: 14px;
+}
+.small_ce91{
+	position: absolute;
+	top: 150px;
+	width: 320px;
+	height: 130px;
+	right: 5px;
+}
+.ce10{
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	width: 550px;
+	height: 300px;
+}
+.photo3{
+		position: absolute;
+	    display: block;
+		width: 200px;
+		height: 300px;
+		bottom: 0px;
+		left: 19px;
+}
+.small_ce10{
+	position: absolute;
+	width: 320px;
+	height: 130px;
+	right: 5px;
+	top: 10px;
+}
+.p7{
+	font-size: 18px;
+	color: skyblue;
+}
+.p8{
+	font-size: 14px;
+}
+.small_ce101{
+	position: absolute;
+	top: 160px;
+	width: 320px;
+	height: 130px;
+	right: 5px;
+}
+.six{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	border: 2px solid white;
+	border-radius:15px;
+    webkit-border-radius:15px;
+    moz-border-radius:15px;
+}
+.six p{
+	margin: 10px 500px;
+}
+.six a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.php:hover{
+	color: skyblue;
+}
+.photo4{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 550px;
+	bottom: 8px;
+}

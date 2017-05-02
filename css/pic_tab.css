@@ -1,0 +1,82 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/2.jpg) no-repeat;
+	background-size:100% 100% ;
+}
+/*设置最外层大盒子*/
+#box{
+	/*让最大的盒子变成包含块*/
+	position: relative;
+	width: 1280px;
+	height: 1080px;
+	border: 1px solid black;
+	border-radius:20px ;
+	margin: 10px auto;
+	/*超出隐藏*/
+	overflow: hidden;
+}
+
+/*设置小方块ul*/
+#list{
+	position: absolute;
+	right: 5%;
+	bottom: 7%;
+	z-index: 9;
+}
+
+#list li{
+	width: 20px;
+	height: 20px;
+	border: 1px solid white;
+	/*去掉黑点*/
+	list-style: none;
+	float: left;
+	margin: 0 5px;
+}
+.return{
+	position: absolute;
+	width: 200px;
+	height: 97px;
+	overflow: hidden;
+	top: 5%;
+	right: 5%;
+}
+.return img{
+	width: 100%;
+}
+.return:hover img{
+	transform: translateY(-97px);
+}
+
+#imgBox{
+	position: absolute;
+	height: 344px;
+	/*保证图片滑动的时候中间没有缝隙   720*2*/
+	width:5000px ;
+	float: left;
+	top: 0;
+	left: 0;
+	
+}
+
+#imgBox img{
+	position: absolute;
+	
+	left: 3000px;
+	top: 0;
+}
+
+#imgBox .first{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/*更改小方块的颜色*/
+.hover{
+	background: black;
+}
